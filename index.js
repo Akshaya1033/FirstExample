@@ -22,7 +22,7 @@ const server =http.createServer((req,res)=>{
     }
     else{
     res.writeHead(404)
-    res.end('<h1>The page not found</h1>')
+    res.end('<h1>404 Error:The page not found</h1>')
     }
 });
  
